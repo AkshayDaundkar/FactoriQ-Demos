@@ -1,0 +1,36 @@
+{
+  "name": "factoriq-demos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "demo:full":          "npx ts-node -r dotenv/config modules/00-full-demo.ts",
+    "demo:ai-assistant":  "npx ts-node -r dotenv/config modules/01-ai-assistant.ts",
+    "demo:inbox":         "npx ts-node -r dotenv/config modules/02-inbox.ts",
+    "demo:dashboard":     "npx ts-node -r dotenv/config modules/03-dashboard.ts",
+    "demo:demandiq":      "npx ts-node -r dotenv/config modules/04-demandiq.ts",
+    "demo:contractiq":    "npx ts-node -r dotenv/config modules/05-contractiq.ts",
+    "demo:orders":        "npx ts-node -r dotenv/config modules/06-purchase-orders.ts",
+    "demo:requisitions":  "npx ts-node -r dotenv/config modules/07-requisitions.ts",
+    "demo:invoices":      "npx ts-node -r dotenv/config modules/08-vendor-invoices.ts",
+    "demo:rfqs":          "npx ts-node -r dotenv/config modules/09-rfqs.ts",
+    "demo:bom-intakes":   "npx ts-node -r dotenv/config modules/10-bom-intakes.ts",
+    "demo:inventory":     "npx ts-node -r dotenv/config modules/11-inventory.ts",
+    "demo:receipts":      "npx ts-node -r dotenv/config modules/12-receipts.ts",
+    "demo:supplieriq":    "npx ts-node -r dotenv/config modules/13-supplieriq.ts",
+    "demo:riskiq":        "npx ts-node -r dotenv/config modules/14-riskiq.ts",
+    "demo:tenderiq":      "npx ts-node -r dotenv/config modules/15-tenderiq.ts",
+    "demo:mps":           "npx ts-node -r dotenv/config modules/16-mps.ts",
+    "demo:tracking":      "npx ts-node -r dotenv/config modules/17-tracking.ts",
+    "demo:items":         "npx ts-node -r dotenv/config modules/18-items.ts",
+    "demo:bom":           "npx ts-node -r dotenv/config modules/19-bom.ts",
+    "demo:whatsapp":      "npx ts-node -r dotenv/config modules/20-whatsapp.ts",
+    "demo:tally":         "npx ts-node -r dotenv/config modules/21-tally.ts"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.43.0",
+    "playwright": "^1.43.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
